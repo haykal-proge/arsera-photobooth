@@ -66,11 +66,11 @@ const Index = () => {
       <section className="container mx-auto px-4 py-16">
         <div className="text-center mb-12">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-pink-600 via-purple-600 to-indigo-600 bg-clip-text text-transparent">
-            Photo Booth Magic
+            Arsera Photo Booth
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
-            Create beautiful memories with cute borders, amazing effects, and instant printing. 
-            Perfect for parties, events, and special moments!
+            Ciptakan kenangan indah dengan garis tepi yang lucu, efek yang mengagumkan, dan pencetakan instan. 
+            Sempurna untuk pesta, acara, dan momen istimewamu!
           </p>
           <Button
             onClick={() => setCurrentStep('capture')}
@@ -78,7 +78,7 @@ const Index = () => {
             className="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white px-8 py-4 text-lg rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-200"
           >
             <Camera className="mr-2 h-6 w-6" />
-            Start Photo Session
+            Mulai sesi foto
           </Button>
         </div>
 
@@ -93,7 +93,7 @@ const Index = () => {
             </CardHeader>
             <CardContent>
               <p className="text-gray-600 text-center">
-                Take perfect photos instantly with our easy-to-use camera interface
+                Mengambil foto yang sempurna secara instan dengan antarmuka kamera yang mudah digunakan
               </p>
             </CardContent>
           </Card>
@@ -107,7 +107,7 @@ const Index = () => {
             </CardHeader>
             <CardContent>
               <p className="text-gray-600 text-center">
-                Add adorable borders, filters, and effects to make your photos magical
+                Tambahkan batas, filter, dan efek yang menggemaskan untuk membuat foto Anda menjadi ajaib
               </p>
             </CardContent>
           </Card>
@@ -121,7 +121,7 @@ const Index = () => {
             </CardHeader>
             <CardContent>
               <p className="text-gray-600 text-center">
-                Print your photos instantly or download them to share with friends
+                Cetak foto Anda secara instan atau unduh untuk dibagikan dengan teman
               </p>
             </CardContent>
           </Card>
@@ -129,7 +129,7 @@ const Index = () => {
 
         {/* Sample Gallery */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-gray-800 mb-8">Sample Photo Styles</h2>
+          <h2 className="text-3xl font-bold text-gray-800 mb-8">Contoh Style Foto</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
             {[1, 2, 3, 4].map((i) => (
               <div key={i} className="relative group">
@@ -148,8 +148,8 @@ const Index = () => {
 
         {/* CTA Section */}
         <div className="text-center bg-white/60 backdrop-blur-sm rounded-2xl p-12 border border-pink-200">
-          <h2 className="text-3xl font-bold text-gray-800 mb-4">Ready to Create Magic?</h2>
-          <p className="text-gray-600 mb-8">Join thousands of happy users creating beautiful memories</p>
+          <h2 className="text-3xl font-bold text-gray-800 mb-4">Siap Menciptakan Keajaiban?</h2>
+          <p className="text-gray-600 mb-8">Bergabunglah dengan ribuan pengguna yang bahagia menciptakan kenangan indah</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
               onClick={() => setCurrentStep('capture')}
@@ -157,7 +157,7 @@ const Index = () => {
               className="bg-gradient-to-r from-pink-500 to-purple-600 hover:from-pink-600 hover:to-purple-700 text-white rounded-full"
             >
               <Camera className="mr-2 h-5 w-5" />
-              Start Now
+              Mulai Sekarang
             </Button>
             <Button
               variant="outline"
@@ -165,7 +165,7 @@ const Index = () => {
               className="border-pink-300 text-pink-600 hover:bg-pink-50 rounded-full"
             >
               <Download className="mr-2 h-5 w-5" />
-              View Samples
+              Lihat Sampel
             </Button>
           </div>
         </div>
